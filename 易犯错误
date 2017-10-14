@@ -1,0 +1,9 @@
+1. 生成的stations.py需要用notepad打开后转换为utf-8存储，并且要加上 stations = 。
+
+2. 字符串换行必须没有缩进
+
+    url = "https://kyfw.12306.cn/otn/leftTicket/query?\
+leftTicketDTO.train_date={}&leftTicketDTO.from_station={}\
+&leftTicketDTO.to_station={}&purpose_codes=ADULT".format(date, from_station,to_station)
+
+3. python语法检查严格，def里面的注释也必须有缩进
