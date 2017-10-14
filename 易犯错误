@@ -7,3 +7,5 @@ leftTicketDTO.train_date={}&leftTicketDTO.from_station={}\
 &leftTicketDTO.to_station={}&purpose_codes=ADULT".format(date, from_station,to_station)
 
 3. python语法检查严格，def里面的注释也必须有缩进
+
+4. dict类型不是固定顺序的
